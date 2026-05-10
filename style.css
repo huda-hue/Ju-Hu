@@ -39,6 +39,7 @@ article {
   margin: 1px;
   border: 1px solid grey;
   padding: 8px;
+  height: 50vh;
   overflow-y: auto; /* agar bisa scrolling */
 }
 
