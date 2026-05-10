@@ -1,0 +1,92 @@
+body {
+  width: 80%;
+  margin: auto;
+  border: 1px solid grey;
+  /* background-color: black; */
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+header {
+  background-color: lightblue;
+  border: 1px solid grey;
+  margin: 1px;
+  padding: 0px;
+}
+
+header h1 {
+  margin: 0px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  /* padding-left: 10px;
+  padding-right: 10px; */
+  border: 1px solid grey;
+  margin: 1px;
+  background-color: white;
+}
+
+aside {
+  margin: 1px;
+  border: 1px solid grey;
+  padding: 0px;
+}
+
+article {
+  margin: 1px;
+  border: 1px solid grey;
+  padding: 8px;
+  height: 100vh; /* mengatur tinggi artikel */
+  overflow-y: auto; /* agar bisa scrolling */
+}
+
+footer {
+  background-color: lightblue;
+  padding: 0px;
+  border: 1px solid black;
+  margin: 1px;
+  place-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Handphone + Tablet UI */
+@media (max-width: 768px) {
+  body {
+    width: 100%;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  aside ul {
+    list-style: square;
+  }
+  article p {
+    padding-left: 8px;
+  }
+}
+
+.card {
+  border: 1px solid grey;
+  border-radius: 8px;
+
+  padding: 16px;
+  margin-bottom: 20px;
+
+  background-color: white;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.card small {
+  color: grey;
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "judul": "Belajar Javascript",
+    "tanggal": "10 mei 2025",
+    "penulis": "huda",
+    "isi": "Javascript membuat website menjadi interaktif"
+  },
+  {
+    "judul": "Belajar CSS Grid layout",
+    "tanggal": "11 mei 2025",
+    "penulis": "huda",
+    "isi": "CSS grid mempermudah layout modern"
+  }
+]
