@@ -24,20 +24,19 @@ main {
   grid-template-columns: 1fr 2fr;
   /* padding-left: 10px;
   padding-right: 10px; */
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
   margin: 1px;
   background-color: white;
 }
 
 aside {
   margin: 1px;
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
   padding: 0px;
 }
 
 article {
   margin: 1px;
-  border: 1px solid grey;
   padding: 8px;
   height: 80vh;
   overflow-y: auto; /* agar bisa scrolling */

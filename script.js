@@ -10,7 +10,8 @@ document.addEventListener("DOMContentLoaded", () => {
         card.classList.add("card");
 
         card.innerHTML = `
-          <h2>${artikel.judul}</h2>
+          <h2 style="margin-bottom: 8px">${artikel.judul}</h2>
+          <h5 style="margin: 0px; padding: 0px;">${artikel.tanggal}</h5>
           <p>${artikel.isi}</p>
         `;
 
